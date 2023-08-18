@@ -1,0 +1,24 @@
+No linker dependencies - (incomplete list - ignore this for now)
+
+Books.txt
+Experience.txt
+DifficultyLevels.txt
+Gamble.txt
+HireDesc.txt ! true ??
+Inventory.txt
+Levels.txt
+LowQualityItems.txt
+
+
+
+Link Dependency 
+
+Cubemain.txt:
+-UniqueItems.txt
+-SetItems.txt
+
+
+
+- subject to revision
+
+

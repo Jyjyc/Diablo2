@@ -1,0 +1,52 @@
+==============
+BaseMod Plugin
+==============
+
+
+Using Custom Mpq file
+
+
+BaseMod automatically looks for and loads BaseMod.mpq file if found.
+BaseMod loads this custom mpq file with a higher priority than Patch_D2.mpq. 
+
+
+--------------------------
+Creating a custom mpq file
+--------------------------
+
+
+This is easy to do, using either WinMPQ or Ladik's MPQ Editor.
+
+
+Ladik's MPQ Editor (simpler setup)
+http://zezula.net/en/mpq/download.html
+Some options to choose for creating new mpq:
+Game Compatibility Option - Diablo II Lord of Destruction
+1024 max files should be enough.
+
+WinMPQ (Author shadowflare) I recommend using WinMPQ_VB6.zip with the vb6 runtime library.
+A lot of people have issues with VB6 files in Win10.
+http://sfsrealm.hopto.org/downloads/WinMPQ.html
+
+Diablo2 listfile for use with any MPQ editor.
+https://d2mods.info/forum/viewtopic.php?t=65218
+
+
+
+---------------------------------
+Beware of Daisy Chained txt files
+---------------------------------
+
+
+In some rare instances you can get away with including one newly compiled txt file in 
+BaseMod.mpq, when the others load from Patch_D2.mpq, other times you can not. 
+
+
+Inventory.bin seems to be ok by itself, but Monstats.bin, and many others are
+known to be daisy chained to more than one file.
+
+
+It is best practice update your MPQ's with recompiled txt files all at the same time.
+That is to say, replace all the .bin files in your MPQ's at the same time, so they are synced.
+
+

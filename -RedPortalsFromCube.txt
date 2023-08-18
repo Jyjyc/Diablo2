@@ -1,0 +1,60 @@
+Red Portals From Cube
+=====================
+
+Custom Red Portals from Cube Recipes is possible in BaseMod v1.12.
+View examples in CubeMain.txt, inside this folder.
+
+
+Limitations
+-----------
+
+PlugY UberQuest is not compatible with BaseMod Custom Red Portals from Cube, because
+the code for cubeMain handler conflicts with PlugY, and there can only be 1 cubemain handler.
+
+
+BaseMods Custom Red Portals from Cube recipes exclude these destination levels:
+
+
+Cow Level
+Furnace of Pain
+Forgotten Sands
+Matron's Den
+Uber Tristram
+
+
+If you cube a portal to Act 1 you need to be in Act1 to cube it, same for Act2, etc. 
+Else you will get a player sound "I cant use this yet" or "Impossible"
+
+
+Custom Portals can use Act Boss quest checks and Waypoint checks, some exceptions Act2, to see if you
+can cast a portal to the destination level. For example once you activate a waypoint, levels numbers below
+that become active to cast a red portal to.
+
+
+BaseMod Examples in CubeMain.txt
+
+All use Flawless Gems
+
+Fl Emerald + TP scroll --> Portal to Andariel (Act 1) - (Requires Act 1 completed before cast portal to this level)
+Fl Emerald +2 TP scrolls --> Portal to Pit level 1 - (Requires Outer Cloister Waypoint activated first)
+Fl Emerald +3 TP scrolls --> Portal to the Countess - (Requires Outer Cloister Waypoint activated first)
+Fl Emerald +4 TP scrolls --> Portal to the Mausoleum - (Requires Outer Cloister Waypoint activated first)
+Fl Topaz +1 TP scroll --> Portal to Duriel (Act 2) - (Requires Act 2 complete before cast portal to this level)
+Fl Topaz +2 TP scrolls --> Portal to Ancient Tunnels - (Requires Act 2 complete before cast portal to this level)
+Fl Topaz +3 TP scrolls --> Portal to Maggot Lair level 3 - (Requires Act 2 complete before cast portal to this level)
+Fl Amethest +1 TP scroll --> Portal to Mephisto (Act 3) - (Requires Act 3 complete before cast portal to this level)
+Fl Amethest +2 TP scrolls --> Portal to Forgotten Temple - (Requires Durance of Hate L2 Waypoint activated first)
+Fl Amethest +3 TP scrolls --> Portal to Ruined Fane - (Requires Durance of Hate L2 Waypoint activated first)
+Fl Amethest +4 TP scrolls --> Portal to Disused Reliquary - (Requires Durance of Hate L2 Waypoint activated first)
+Fl Ruby +1 TP scroll --> Portal to Chaos Sanctuary (Act 4) - (Requires Act 4 complete before cast portal to this level)
+Fl Diamond +1 TP scroll --> Portal to Worldstone (Act 5) - (Requires Act 5 complete before cast portal to this level)
+Fl Diamond +2 TP scrolls --> Portal to Throne Room - (Requires Act 5 completed before cast portal to this level)
+Fl Diamond +3 TP scrolls --> Portal to Arreat Summit - (Requires Halls of Pain Waypoint activated first)
+Fl Diamond +4 TP scrolls --> Portal to Drifter Cavern - (Requires Halls of Pain Waypoint activated first)
+
+
+
+
+
+
+

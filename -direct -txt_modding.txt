@@ -1,0 +1,60 @@
+
+BaseMods custom mpq was not orignally created to work with -direct -txt modding. 
+Versions prior to 1.13.8 do not load BaseMod.mpq with Diablo II command line options:
+
+1) -direct
+2) -direct -txt
+3) -txt
+
+
+-Due to a sudden and recent rise in popularity of modding this way, BaseMod.mpq has been 
+updated to work with -direct -txt mode.
+
+
+In BaseMod v1.13.8
+
+BaseMod now skips loading *.bin files from BaseMod.mpq with any of the 3 command line options:
+---------------------------------------------------------------------------------------------
+
+1) -direct
+2) -direct -txt
+3) -txt
+
+
+Diablo2 Log file output:
+
+
+    BaseMod Installing Patches
+    MPQ Loaded
+    BaseMod Installing PatchesEx
+    BaseMod Loaded
+
+
+BaseMod.ini takes priority of ini options, in most situations, if the file is present.
+Otherwise compiler built in default options will be used.
+
+
+
+-You could expect BaseMod to load ini options from .\Diablo II\data\global\excel\BaseMod.bin
+when Diablo II is loaded with command line option:
+
+
+1) -direct
+
+But I removed code for that because it will lead to more confusion.
+
+
+
+v1.13.8 update 2 
+
+BaseMod is updated to load ini options from BaseMod.txt and extra dll options from BaseMod.bin with 
+relative path  Diablo II\data\global\excel in the following situation:
+
+1) -direct -txt cmdline
+
+
+*Extra Dlls are not loaded directly from BaseMod.txt, instead they're loaded from BaseMod.bin
+because of a timing or access voilation with PlugY that leads to a crash when accessing the PlugY 
+stash. This happens when PlugY.dll is loaded from BaseMod after txt files are recompiled.
+
+

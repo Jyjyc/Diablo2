@@ -1,0 +1,23 @@
+==============
+BaseMod Plugin
+==============
+
+
+It's strongly suggested to use 1.13c fixed txt files in place of vanilla txt files, 
+These txt files were made from Nefarius Fixed 1.11b txt files. This fixes broken 
+chains in Monstats.txt, and a lot of other issues. These files work in 1.13d and 1.14 versions.
+
+1.13c Fixed Txt Files for Patch_D2.mpq
+https://d2mods.info/forum/viewtopic.php?t=56033
+
+
+The 1.13c Fixed Txt Files is now included in Patch_D2.mpq with BaseMod istallation files.
+
+
+A more extensive and updated collection of 1.13c fixes are found here - Amazing work Cypress!
+https://d2mods.info/forum/viewtopic.php?t=67078
+
+
+For Examples of Custom Red Portals using cube see examples (lines 154 - 169)
+in CubeMain.txt in this folder.
+
