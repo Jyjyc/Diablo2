@@ -1,0 +1,95 @@
+BaseMod CubeMain.txt recipies that differ from Vanilla LoD
+==========================================================
+
+
+
+-BaseMod Removes any ladder only requirements from standard Vanilla LoD cube recipies.
+
+
+
+CUSTOM RED PORTALS
+------------------
+
+
+All use Flawless Gems
+
+Fl Emerald + TP scroll --> Portal to Andariel (Act 1) - (Requires Act 1 completed before cast portal to this level)
+Fl Emerald +2 TP scrolls --> Portal to Pit level 1 - (Requires Outer Cloister Waypoint activated first)
+Fl Emerald +3 TP scrolls --> Portal to the Countess - (Requires Outer Cloister Waypoint activated first)
+Fl Emerald +4 TP scrolls --> Portal to the Mausoleum - (Requires Outer Cloister Waypoint activated first)
+Fl Topaz +1 TP scroll --> Portal to Duriel (Act 2) - (Requires Act 2 complete before cast portal to this level)
+Fl Topaz +2 TP scrolls --> Portal to Ancient Tunnels - (Requires Act 2 complete before cast portal to this level)
+Fl Topaz +3 TP scrolls --> Portal to Maggot Lair level 3 - (Requires Act 2 complete before cast portal to this level)
+Fl Amethest +1 TP scroll --> Portal to Mephisto (Act 3) - (Requires Act 3 complete before cast portal to this level)
+Fl Amethest +2 TP scrolls --> Portal to Forgotten Temple - (Requires Durance of Hate L2 Waypoint activated first)
+Fl Amethest +3 TP scrolls --> Portal to Ruined Fane - (Requires Durance of Hate L2 Waypoint activated first)
+Fl Amethest +4 TP scrolls --> Portal to Disused Reliquary - (Requires Durance of Hate L2 Waypoint activated first)
+Fl Ruby +1 TP scroll --> Portal to Chaos Sanctuary (Act 4) - (Requires Act 4 complete before cast portal to this level)
+Fl Diamond +1 TP scroll --> Portal to Worldstone (Act 5) - (Requires Act 5 complete before cast portal to this level)
+Fl Diamond +2 TP scrolls --> Portal to Throne Room - (Requires Act 5 completed before cast portal to this level)
+Fl Diamond +3 TP scrolls --> Portal to Arreat Summit - (Requires Halls of Pain Waypoint activated first)
+Fl Diamond +4 TP scrolls --> Portal to Drifter Cavern - (Requires Halls of Pain Waypoint activated first)
+
+
+
+GEM UPGRADES
+------------
+
+2 chipped gems of the same type --> 1 flawed gem
+2 flawed gems of the same type --> 1 normal gem
+2 standard gems of the same type --> 1 flawless gem
+2 flawless gems of the same type --> 1 perfect gem
+
+
+GEM DOWNGRADES
+--------------
+
+perfect gem + antidote --> 2 flawless gems
+flawless gem + antidote --> 2 normal gems 
+normal gem + antidote --> 2 flawed gems
+flawed gem + antidote --> 2 chipped gems
+
+
+RUNE UPGRADES
+-------------
+
+2 runes of the same type -> next higher rune
+
+
+RUNE DOWNGRADES
+---------------
+
+rune + antidote --> 2 next lower runes
+
+
+ROLL ITEMS
+----------
+
+3 rare rings --> 1 rare amulet
+3 rare amulets --> 1 rare ring
+2 magic jewels --> 1 rare jewel
+2 rare jewels --> 1 magic jewel
+3 small charms -> 1 medium charm
+3 medium charms -> 1 grand charm
+3 grand charms -> 1 small charm
+
+
+SIMPLE SOCKETING
+----------------
+
+1 flawless topaz + normal torso -> socketed torso
+1 flawless amethyst + normal weapon -> socketed weapon
+1 flawless sapphire + normal helm -> socketed helm
+1 flawless ruby + normal shield -> socketed shield
+1 flawless topaz + superior torso -> socketed superior torso
+1 flawless amethyst + superior weapon -> socketed superior weapon
+1 flawless sapphire + superior helm -> socketed superior helm
+1 flawless ruby + superior shield -> socketed superior shield
+
+
+SIMPLE UNSOCKET
+---------------
+
+1 flawless diamond + any socketed item -> unsocket (destroy gems)
+
+
