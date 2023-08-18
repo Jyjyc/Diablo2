@@ -3,7 +3,8 @@
 !/save/**
 *.mpq
 !/basemod*
-!patch_d*.mpq
+!Patch_D2.mpq
+Patch_D2.mpq*
 !/sgd*
 !/plugy*
 *log*
@@ -13,13 +14,9 @@
 *dxvk-cache
 *readme*
 *changelog*
-D2.LNG
-ijl11.dll
-SmackW32.dll
 !/data/**
 !/PlugY_Save_Monitor/**
-PlugY_Save_Monitor/nppBackup
 PlugY_Save_Monitor/*.ini
 **__pycache__**
 !.gitattributes
-*/nppBackup/.gitattributes
+*/nppBackup/**
