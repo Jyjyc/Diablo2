@@ -20,3 +20,4 @@ PlugY_Save_Monitor/*.ini
 **__pycache__**
 !.gitattributes
 */nppBackup/**
+/data/global/excel/bak
